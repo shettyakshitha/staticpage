@@ -1,0 +1,223 @@
+* {
+  margin: 0;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  position: fixed;
+  width: 100%;
+
+}
+.nav-right ul {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.nav-right ul li {
+  list-style: none;
+}
+
+.nav-right ul li a {
+  text-decoration: none;
+  margin-right: 25px;
+  font-size: 22px;
+  color: white;
+}
+
+.content {
+  overflow: hidden;
+  
+}
+
+/* .content-img img {
+  width: 1400px;
+  object-fit: cover;
+}
+.content .span-text{
+position: relative;
+ 
+}
+.content .span-text p{
+position: absolute;
+
+} */
+.content{
+  position: relative;
+  z-index: -1;
+ 
+  
+}
+.content img{
+  width: 1400px;
+  object-fit: cover;
+  /* height: 700px; */
+}
+.text{
+  position: absolute;
+  top: 0;
+  text-align: center;
+  
+
+}
+/* .text span{
+  background-color: black;
+  color: white;
+  padding: 20px;
+
+} */
+.text h1{
+  font-size: 50px;
+  color: white;
+  text-align: center;
+  margin-top: 70%;
+  margin-left: 250px;
+ 
+}
+.projects .pro-head p {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 30px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  z-index: -1;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+}
+
+
+.flex-container>div {
+  margin: 5px;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.flex-container img {
+  width: 250px;
+  height: 200px;
+}
+
+.artech-text {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  position: absolute;
+  top: 15px;
+}
+.about{
+  overflow: hidden;
+}
+.about .about-head {
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+.about-text p {
+  font-size: 20px;
+  line-height: 32px;
+  margin-top: 30px;
+}
+
+.artecture {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  justify-content: center;
+  margin-bottom: 50px;
+  overflow: hidden;
+}
+
+.artecture div {
+  margin-right: 20px;
+}
+
+.artecture p {
+  line-height: 30px;
+}
+
+.artecture .art-name {
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 26px;
+}
+
+.artecture .CEO-text {
+  color: gray;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.artecture .art-text {
+  width: 200px;
+  font-size: 22px;
+}
+
+.artecture .btn-contact {
+  width: 250px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: none;
+  font-size: 22px;
+}
+.contact{
+  overflow: hidden;
+
+}
+.contact .contact-head{
+  margin-bottom: 50px;
+  font-size: 28px;
+  
+}
+.contact .contact-text {
+  margin-top: 20px;
+  margin-bottom: 60px;
+  font-size: 24px;
+}
+.form-flex{
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-box input {
+  padding: 15px;
+  width: 400px;
+  margin-bottom: 20px;
+  /* opacity: 0.3; */
+  
+}
+
+
+.btn-send {
+  padding: 15px;
+  background-color: black;
+  color: white;
+  border: none;
+
+}
+
+footer {
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding: 30px;
+  margin-top: 20px;
+
+}
+.map{
+  /* height: 350px; */
+ 
+}
+footer p {
+  text-align: center;
+}
